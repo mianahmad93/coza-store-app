@@ -1,0 +1,23 @@
+.ProductDetails {
+    margin-top: 6%;
+}
+
+@media only screen and (max-width:992px) {
+    .ProductDetails {
+        margin-top: 8%;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:868px) {
+    .ProductDetails {
+        margin-top: 10%;
+        top: 0;
+    }
+}
+@media only screen and (max-width:695px) {
+    .ProductDetails {
+        margin-top: 15%;
+        top: 0;
+    }
+}

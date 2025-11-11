@@ -1,0 +1,11 @@
+.loader_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 180px;
+    bottom: 0;
+    margin: auto;
+}

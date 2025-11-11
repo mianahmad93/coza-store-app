@@ -1,0 +1,110 @@
+.ProductOverView_page {
+    width: 89%;
+    margin: auto;
+}
+
+.Overview_main{
+    margin-top: 3% !important;
+}
+
+.Overview_main h2 {
+    font-size: 35px;
+    margin-left: 90px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.details_card {
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.details_card h4 {
+    margin-left: 15px;
+}
+
+.main_card {
+    border: none;
+    position: relative;
+}
+
+.img_div:hover .add_cart_btn {
+    display: inline-block;
+}
+
+.img_div {
+    cursor: pointer;
+    position: relative;
+}
+
+.add_cart_btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top: 0; */
+    bottom: 30px;
+    text-align: center;
+    display: none;
+}
+
+.add_cart_btn button {
+    padding: 10px 30px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.add_cart_btn button:hover {
+    background-color: black;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+}
+
+.card_body {
+    position: relative;
+}
+
+
+
+.card_body span {
+    color: gray;
+}
+
+.heart_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.heart_img img:hover {
+    cursor: pointer;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.lists{
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.lists a {
+    margin: 15px;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    /* font-family: Poppins-Regular; */
+}
+
+.lists a:hover,
+.lists a.active {
+    color: black;
+    border-bottom: 1px solid black;
+}

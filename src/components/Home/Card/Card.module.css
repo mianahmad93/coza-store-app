@@ -1,0 +1,81 @@
+.card_div {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.card_data {
+    border-radius: 0px;
+    position: relative;
+    margin: 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+    /* width: 22rem; */
+    /* margin: auto; */
+}
+
+.card_data img {
+    height: fit-content;
+    vertical-align: middle;
+    border-style: none;
+    object-fit: cover;
+}
+
+.card_data:hover .overlay {
+    opacity: 0.7;
+}
+
+.card_data:hover .card_desc {
+    color: #fff;
+}
+
+.shop_now {
+    display: none;
+    position: absolute;
+    left: 25px;
+    font-weight: 700;
+    /* right: 0; */
+    /* top: 0; */
+    bottom: 20px;
+}
+
+.shop_now div {
+    position: relative;
+    bottom: 15px;
+    border: 2px solid white;
+}
+
+.card_data:hover .shop_now {
+    display: inline-block;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #717fe0;
+}
+
+.card_desc {
+    position: absolute;
+    left: 25px;
+    /* right: 0; */
+    top: 50px;
+    bottom: 0;
+}
+
+.card_desc h3 {
+    text-align: start;
+    font-weight: 700;
+}

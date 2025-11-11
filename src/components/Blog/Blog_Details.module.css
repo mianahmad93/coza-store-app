@@ -1,0 +1,110 @@
+.Blog_Details_page {
+    margin-top: 6%;
+}
+
+.Blog_Details {
+    width: 87%;
+    margin: auto;
+}
+
+.BreadCrumb {
+    padding: 0px 30px;
+}
+
+.BreadCrumb_links li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.BreadCrumb_links li a:hover {
+    color: #717fe0 !important;
+}
+
+.BreadCrumb_links p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.right_arrow {
+    margin-left: 5px;
+}
+
+.right_arrow:hover {
+    color: #717fe0;
+}
+
+.Blog_card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.Blog_card_Box {
+    height: 70px;
+    width: 70px;
+    background-color: #ffffffaa;
+    position: absolute;
+    left: 30px;
+    margin: auto;
+    /* right: 0; */
+    top: 30px;
+    /* bottom: 0; */
+    padding: 5px 0px;
+}
+
+.Blog_card_Box span {
+    display: block;
+}
+
+.Blog_card_Box span:first-child {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Blog_card_Box span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lists span {
+    font-size: 14px;
+}
+
+.Title_div h4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Title_div p {
+    color: gray;
+    text-align: justify;
+}
+
+.comment_form h5 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.comment_form p {
+    color: gray;
+}
+
+.Form {
+    margin-top: 6% !important;
+}
+
+.post_btn button {
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 28px;
+}
+
+.post_btn button:hover{
+    background-color: #717fe0;
+    transition: all ease-in-out 0.3s;
+}

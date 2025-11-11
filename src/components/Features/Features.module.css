@@ -1,0 +1,147 @@
+.Feature_section_1 {
+    width: 83%;
+    margin: auto;
+}
+
+.Feature_section_2 {
+    width: 85%;
+    margin: auto;
+}
+
+.Feature_page {
+    margin-top: 6%;
+}
+
+.Feature_Column_1 {
+    /* border: 1px solid lightgray; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.Feature_Column_2 {
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.Main_Btns button {
+    /* border: 1px solid lightgray; */
+    border: lightgray;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: white;
+
+}
+
+.Main_Btns input {
+    border: none;
+    /* padding: 5px 10px; */
+    width: 30px;
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+}
+
+.First_row th {
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.total_section h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtotal {
+    margin-top: 30px;
+}
+
+.subtotal strong {
+    font-weight: 600;
+}
+
+.subtotal p {
+    margin-left: 20px;
+}
+
+.border_bottom {
+    border-bottom: 1px gray dashed;
+}
+
+.shipping_section p {
+    font-weight: 600;
+}
+
+.shipping_section span {
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.update_btn button {
+    padding: 12px 30px;
+    border: none;
+    background-color: rgb(234, 231, 231);
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.update_btn button:hover {
+    background-color: #717fe0;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.total_section div {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.total_section span {
+    margin-left: 30px;
+}
+
+.checkout_btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 100%;
+    font-size: 17px;
+}
+
+.checkout_btn:hover {
+    background-color: #717fe0;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+@media only screen and (max-width:992px) {
+    .Feature_page {
+        margin-top: 8%;
+        top: 0;
+    }
+    .Feature_Column_2{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width:868px) {
+    .Feature_page {
+        margin-top: 10%;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:695px) {
+    .Feature_page {
+        margin-top: 15%;
+        top: 0;
+    }
+}

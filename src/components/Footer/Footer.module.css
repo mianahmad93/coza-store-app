@@ -1,0 +1,136 @@
+.Footer_page {
+    background-color: #222;
+    height: fit-content;
+    color: #fff;
+    /* margin-top: 5%; */
+    padding-bottom: 20px;
+}
+
+.row_list {
+    width: 95%;
+    margin: auto;
+}
+
+.list_one {
+    margin-top: 70px;
+    text-align: start;
+}
+
+.list_one ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list_one ul li strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list_one ul li a {
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: lightgray !important;
+}
+
+.list_one ul li a:hover {
+    color: #717fe0 !important;
+}
+
+.second_list {
+    margin-top: 80px;
+    text-align: start;
+}
+
+.second_list ul li {
+    list-style-type: none;
+}
+
+.second_list ul li strong {
+    text-transform: uppercase;
+}
+
+.second_list ul p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.icons_div {
+    margin-top: 50px !important;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: #717fe0;
+}
+
+.third_list {
+    margin-top: 80px;
+    text-align: start;
+}
+
+.third_list ul li {
+    list-style-type: none;
+}
+
+.inputField {
+    padding: 20px 0px;
+}
+
+.inputField input {
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+}
+
+.inputField input:focus {
+    outline: none;
+}
+
+.inputField input:hover {
+    border-bottom: 1px solid #717fe0;
+}
+
+.subscribe {
+    padding: 10px 45px;
+    border: none;
+    background-color: #717fe0;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.subscribe:hover {
+    background-color: #fff;
+    color: #717fe0;
+    transition: all ease-in-out 0.3s;
+}
+
+.payment_images {
+    margin-top: 4%;
+}
+.footer_desc{
+    width: 80%;
+    margin: auto;
+}
+
+.footer_desc p {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.color_blue {
+    color: #717fe0;
+}
+.color_blue:hover {
+    color: #243fec;
+    cursor: pointer;
+}

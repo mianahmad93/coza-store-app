@@ -1,0 +1,16 @@
+.BreadCrumb_page{
+    margin-top: 5%;
+}
+.BreadCrumb_page a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+.BreadCrumb_page a:hover{
+    color: #717fe0;
+}
+
+.BreadCrumb_page span{
+    font-size: 13px;
+    margin-left: 10px;
+}

@@ -1,0 +1,138 @@
+.About_page {
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+
+.about_img_div img {
+    max-width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.about_img_div {
+    position: relative;
+}
+
+.about_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.about_text h2 {
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 82px 82px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.About_content {
+    width: 85%;
+    margin: auto;
+}
+
+.main_container {
+    margin-top: 8%;
+    /* position: relative; */
+}
+.main_container2{
+    margin-top: 8%;
+    /* position: relative; */
+}
+
+.about_Text_section h4 {
+    font-weight: bold;
+}
+
+.about_Text_section p {
+    color: #888888;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.about_img{
+    position: relative;
+}
+
+.about_img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ccc;
+}
+
+.about_img::before {
+    bottom: -21px;
+    left: -21px;
+}
+
+
+
+.about_img img {
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+}
+
+.about_img_2 img{
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+}
+
+.about_img_2{
+    position: relative;
+}
+
+.about_img_2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ccc;
+}
+
+.about_img_2::before {
+    bottom: -21px;
+    right: -21px;
+}
+
+.About_section_2{
+    width: 95%;
+    margin: auto;
+    border-left: 3px solid #ece8e8;
+}
+.About_section_2 p{
+    font-size: 15px;
+}
+
+.Responsive_design{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .Responsive_design{
+        display: block;
+        margin-top: 10%;
+    }
+
+    
+
+
+    .main_container2{
+        display: none;
+    }
+}
+
