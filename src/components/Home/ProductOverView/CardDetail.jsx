@@ -28,12 +28,12 @@ const CardDetail = () => {
 
                     <NavLink
                         className={selectedCategory === 'Women' ? styles.active : ''}
-                        onClick={() => handleCategoryClick("Women")}>Women
+                        onClick={() => handleCategoryClick("Women")}>Womens
                     </NavLink>
 
                     <NavLink
                         className={selectedCategory === 'Men' ? styles.active : ''}
-                        onClick={() => handleCategoryClick("Men")}>Men
+                        onClick={() => handleCategoryClick("Men")}>Mens
                     </NavLink>
 
                     <NavLink

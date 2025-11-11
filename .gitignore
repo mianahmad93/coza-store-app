@@ -15,6 +15,13 @@ dist-ssr
 # Ignore environment file
 .env
 
+# Ignore all images in root folder
+cart.png
+fourth.png
+second.png
+third.png
+thumbnail.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
